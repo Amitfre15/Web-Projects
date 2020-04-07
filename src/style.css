@@ -1,0 +1,98 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: #c22;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  list-style: none;
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#welcome-section {
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    #202020,
+    #252525,
+    #333,
+    #353535,
+    #444,
+    #454545,
+    #555,
+    #666
+  );
+  color: white;
+}
+
+h1 {
+  padding-top: 80px;
+  font-size: 40px;
+}
+
+h2 {
+  color: #c27;
+}
+
+img {
+  margin-top: 30px;
+  display: block;
+  width: 400px;
+  height: 300px;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  background-color: #45567d;
+  height: 80vh;
+}
+
+.project-tile {
+  margin-left: 20px;
+}
+
+#contact {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    #202020,
+    #252525,
+    #333,
+    #353535,
+    #444,
+    #454545,
+    #555,
+    #666
+  );
+  color: white;
+}
+
+#profile-link {
+  margin: 20px;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  img {
+    width: 40%;
+    height: auto;
+  }
+}
